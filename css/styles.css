@@ -1,0 +1,134 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+/* Reset start */
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Reset end */
+
+/* Common */
+
+body {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-dark {
+  color: var(--color-navy-blue);
+}
+
+.logo-light {
+  color: var(--color-cloud);
+}
+
+.btn {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  background-color: var(--color-iris);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-ocean);
+}
+
+.btn-light {
+  color: var(--IRIS, #4d5ae5);
+
+  background-color: var(--CLOUD);
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+
+.item-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+/* Header */
+
+.nav-item {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-weight: 500;
+}
+
+/* Hero section */
+
+.hero-section {
+  background-color: var(--color-navy-blue);
+}
+
+.page-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+/* Advantages */
+
+/* What are we doing */
+
+/* Our team */
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-navy-blue);
+}
+
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+}
+/* Portfolio */
