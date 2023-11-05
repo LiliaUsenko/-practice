@@ -102,6 +102,16 @@ body {
   font-weight: 500;
 }
 
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--color-ocean);
+}
+
+.email:hover,
+.tel:focus {
+  color: var(--color-ocean);
+}
+
 /* Hero section */
 
 .hero-section {
