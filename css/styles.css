@@ -82,7 +82,8 @@ body {
 
 .btn-light:hover,
 .btn-light:focus {
-    color: var(--color-white);
+  color: var(--color-white);
+
   background-color: var(--color-ocean);
 }
 
@@ -111,7 +112,6 @@ body {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
