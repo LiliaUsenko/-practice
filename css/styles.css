@@ -262,6 +262,18 @@ header {
 .advantages-item {
 }
 
+.advantages-icon-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 112px;
+border-radius: 4px;
+background: var(--CLOUD, #F4F4FD);
+}
+.advantages-icon{
+
+}
+
 .advantages-description {
 }
 
