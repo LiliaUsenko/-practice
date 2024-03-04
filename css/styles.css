@@ -218,6 +218,9 @@ header {
 /* Hero section */
 
 .hero-section {
+  background-image: url(../image/hero/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
   background-color: var(--color-navy-blue);
 }
 
